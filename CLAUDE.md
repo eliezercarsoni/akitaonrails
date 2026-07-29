@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Canonical agent guide for this repo (`AGENTS.md` points here).
 
 ## Project Overview
 
@@ -75,6 +75,8 @@ Optional: `slug`, `tags`, `description`
 - Disqus comments configured with shortname `akitaonrails`
 - Emoji support enabled
 - Default branch: `master`
+- Markdownlint ignores line length (`MD013: false` in `.markdownlint.json`)
+- Toolchain: Hugo Extended 0.145.0+, Go 1.21+, Ruby (scripts)
 
 ## Custom Shortcodes
 
